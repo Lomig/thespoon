@@ -2,7 +2,7 @@
 <p>Find me in app/views/pages/home.html.erb</p>
 
 <% if user_signed_in? %>
-  <h1 class="bg-warning">Salut <%= current_user.nickname %> !</h1>
+  <h1 class="bg-warning">Bonjour ! <%= current_user.nickname %> !</h1>
 <% else %>
   Vous n'êtes pas connecté
 <% end %>
